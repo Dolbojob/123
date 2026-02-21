@@ -61,6 +61,7 @@ print(f"• Типов атак: {df['Attack Type'].nunique()}")
 print(f"• Средние финансовые потери: ${df['Financial Loss (in Million $)'].mean():.2f} млн")
 print(f"• Медиана затронутых пользователей: {df['Number of Affected Users'].median():,}")
 \```
+
 \```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -125,6 +126,7 @@ print(f"Период данных: {df['Year'].min()} – {df['Year'].max()}")
 print(f"\nРаспределение по уровням водного дефицита (2025):")
 print(df[df['Year']==2025]['Water Scarcity Level'].value_counts())
 \```
+
 \```python
 import pandas as pd
 import matplotlib.pyplot as plt

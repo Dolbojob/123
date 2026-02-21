@@ -1,5 +1,5 @@
 # 123
-\```python
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -60,9 +60,9 @@ print(f"• Уникальных стран: {df['Country'].nunique()}")
 print(f"• Типов атак: {df['Attack Type'].nunique()}")
 print(f"• Средние финансовые потери: ${df['Financial Loss (in Million $)'].mean():.2f} млн")
 print(f"• Медиана затронутых пользователей: {df['Number of Affected Users'].median():,}")
-\```
+```
 
-\```python
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -125,9 +125,9 @@ print(f"Всего стран в датасете: {df['Country'].nunique()}")
 print(f"Период данных: {df['Year'].min()} – {df['Year'].max()}")
 print(f"\nРаспределение по уровням водного дефицита (2025):")
 print(df[df['Year']==2025]['Water Scarcity Level'].value_counts())
-\```
+```
 
-\```python
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -207,4 +207,4 @@ plt.legend(title='Тип напитка', fontsize=12)
 plt.xticks([2017, 2018, 2019, 2020, 2021, 2022, 2023])
 plt.tight_layout()
 plt.show()
-\```
+```
